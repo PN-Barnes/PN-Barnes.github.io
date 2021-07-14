@@ -1,4 +1,35 @@
 :root {
    --fontColor: #ffd300; 
+   --headings: 
 }
 
+body, footer {
+    background-color: black;
+    color: gold;
+}
+header, .card, nav {
+    background-color: #212529;
+}
+.headshot {
+    border-radius: 50%;
+}
+#portrait-container p {
+    color: gold;
+    font-size: 3rem;
+    
+}
+a, li, .nav-link {
+    color: gold;
+}
+p{
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+ul, #contact {
+    background-color: #212529;
+    font-size: 1.5rem;
+}
+
+#headingProjects {
+    font-size: 3rem;
+}
