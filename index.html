@@ -7,11 +7,11 @@
             <title>Paul Barnes - Web Developer</title>
             <link rel="stylesheet" href="./assets/styles/reset.css">
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-            <!-- <link rel="stylesheet" href="./assets/styles/style.css"> -->
+            <link rel="stylesheet" href="./assets/styles/style.css">
         </head>
         <body>
             <header>
-                <nav class="navbar fixed-top navbar-light bg-light justify-content-center" id="pageNav">
+                <nav class="navbar navbar-light bg-light justify-content-center mb-3" id="pageNav">
                     <ul class="nav justify-content-center nav-pills" >
                         <li><a class="nav-link" href="#bio">Bio</a></li>
                         <li ><a class="nav-link" href="#projects">Projects</a></li>
@@ -22,7 +22,7 @@
 
         <!-- PORTRAIT AND NAME -->
 
-            <div class="container-fluid portrait justify-content-center">
+            <div class="container-fluid portrait justify-content-center mt-6">
                 <img class="img-fluid rounded mx-auto d-block img-thumbnail" src="./assets/images/PBPic4.jpg" class="headshot" width="200px" height="300px" alt="portrait photo of me!">
                 <h3 class="h3 text-center">Hello World!</h3>
                 <p class="h5 text-center">Paul Barnes</p>
@@ -31,16 +31,16 @@
             </div>
 
         <!-- BIO BACKGROUND AND SKILLS -->
-            <main class="container-fluid" id="bio">
+            <main class="container-fluid mt-5 mb-5" id="bio">
                 <div class="row g-2">
-                    <article class=" card col-6 text-center background box">
+                    <article class=" card col g-2 text-center m-2 background">
                         <h2 class="card-title">Background:</h2>
                         <p class="card-text lh-sm">My name is Paul Barnes. I am a 22 year old FullStack Developer from Sacramento, California.
                             I have traveled to multiple states for work related purposes and am now looking to settle for a 
                             position located within my home state of California.
                         </p>
                     </article>
-                    <article class=" card col-6 text-center skills box">
+                    <article class=" card col m-2 text-center skills">
                         <h2 class="card-title">Skills:</h2>
                         <p class="card-text lh-sm">I have been learning FullStack development from the beginning of 2021 with CodeCademy and recently going through 
                             the University of California Berkeley extension Coding Bootcamp. I also graduated from Louisiana State University in 2021 with a BA in
@@ -49,12 +49,12 @@
                     </article>
                 </div>
                 <div class="row g-2">
-                    <article class="card col text-center resume">
+                    <article class="card col m-2 text-center resume">
                         <h2 class="card-title">Training:</h2>
-                        <p class="card-text lh-sm">I am currently working on my certification to be a full stack developer throug The university of California Berkeley extension Coding Bootcamp. I am also learning other web development skills through CodeCademy. If you wish to know more about the Bootcamp, click on this card to check out the details.</p>
+                        <p class="card-text lh-md">I am currently working on my certification to be a full stack developer throug The university of California Berkeley extension Coding Bootcamp. I am also learning other web development skills through CodeCademy. If you wish to know more about the Bootcamp, click on this card to check out the details.</p>
                     </article>
-                    <article class="card col text-center">
-                        <a class="lh-sm text-decoration-none link-dark stretched-link" href="./assets/Documents/PBResume2021.pdf">
+                    <article class="card col m-2 text-center">
+                        <a class="lh-md text-decoration-none link-dark stretched-link" href="./assets/Documents/PBResume2021.pdf">
                         <h2 class="card-title">Resume:</h2>
                         <p class="card-text lh-sm">Here is a PDF link to my resume, it has been updated to reflect 2021 work experience and training.</p>
                         </a>
@@ -64,14 +64,17 @@
             </main>
 
         <!-- PROJECTS -->
-            <aside class="projectsContainer container-fluid">
-                <H2 class="h2 text-center"id="headingProjects">Projects</H2>
+            <div class="row justify-content-center mb-4">
+                <h2 class="h2 col text-center"id="headingProjects">Projects</h2>
+            </div>
 
-                <div id="projects" class="container-fluid gx-5">
+            <aside class="projectsContainer container-fluid mt-5 mb-5">
+
+                <div id="projects" class="container-fluid">
                     <!-- FIRST ROW -->
                     <div class="row g-5">
 
-                        <section class="card col" id="JamMap">
+                        <section class="card col m-2" id="JamMap">
                             <a class="card-link" href="https://pdpco.github.io/jam-map/">
                             <h3 class="card-title text-center h3">Jam-Map</h3>
                             <img class="img-fluid" src="./assets/images/jam-map.png" alt="screenshot of Jam Map the application"/>
@@ -85,7 +88,7 @@
 
                         </section>
 
-                        <section class="card col" id="weatherDashboard">
+                        <section class="card col m-2" id="weatherDashboard">
                             <a class="card-link" href="https://pn-barnes.github.io/weather-dashboard/">
                             <h3 class="card-title text-center h3">Weather Dashboard</h3>
                             <img class="img-fluid"src="assets/images/weatherDashboard.png" alt="screenshot for the weatherdashboard by city">
@@ -100,8 +103,8 @@
                     </div> 
 
                     <!-- SECOND ROW -->
-                    <div class="row row-cols-2 g-5">
-                        <section class="card col" id="workDay">
+                    <div class="row">
+                        <section class="card col m-2" id="workDay">
                             <a class="card-link" href="https://pn-barnes.github.io/WorkDay-Scheduler/">
                             <h3 class="card-title text-center h3">Workday Scheduler</h3>
                             <img class="img-fluid"src="assets/images/workdayScheduler.png" alt="screenshot of the workday Scheduler">
@@ -114,7 +117,7 @@
                             </div>
                         </section>
 
-                        <section class="card col" id="passwordGenerator">
+                        <section class="card col m-2" id="passwordGenerator">
                             <a class="card-link" href="https://pn-barnes.github.io/random-password-generator/">
                             <h3 class="card-title text-center h3">Password Generator</h3>
                             <img class="img-fluid"src="assets/images/passwordGenerator.png" alt="screenshot of the password Generator">
