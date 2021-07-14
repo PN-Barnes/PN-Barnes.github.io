@@ -34,29 +34,44 @@
             <main class="container-fluid mt-5 mb-5" id="bio">
                 <div class="row g-2">
                     <article class=" card col g-2 text-center m-2 background">
+                        <div class="card-body">
                         <h2 class="card-title">Background:</h2>
                         <p class="card-text lh-sm">My name is Paul Barnes. I am a 22 year old FullStack Developer from Sacramento, California.
                             I have traveled to multiple states for work related purposes and am now looking to settle for a 
                             position located within my home state of California.
                         </p>
+                        </div>
+                        <img src="./assets/images/Sacramento_Tower_Bridge_1920x1080.jpg" class="card-img-bottom" alt="Sacramento tower bridge">
                     </article>
-                    <article class=" card col m-2 text-center skills">
+
+                    <article class=" card col m-2 text-center skills" id="skills">
+                        <div class="card-body">
                         <h2 class="card-title">Skills:</h2>
-                        <p class="card-text lh-sm">I have been learning FullStack development from the beginning of 2021 with CodeCademy and recently going through 
-                            the University of California Berkeley extension Coding Bootcamp. I also graduated from Louisiana State University in 2021 with a BA in
-                            Film and Television Production.
+                        <p class="card-text lh-sm">I have been learning FullStack development from the beginning of 2021 with CodeCademy and recently going through the University of California Berkeley extension Coding Bootcamp. I also graduated from Louisiana State University in 2021 with a BA in Film and Television Production.
                         </p>
+                        </div>  
+                        <img src="./assets/images/logo-codecademy-social.png" class="card-img-bottom" alt="CodeCademy image"> 
+                        <a href="https://www.codecademy.com/" class="stretched-link lh-md text-decoration-none link-dark"></a>
                     </article>
                 </div>
+
                 <div class="row g-2">
                     <article class="card col m-2 text-center resume">
-                        <h2 class="card-title">Training:</h2>
-                        <p class="card-text lh-md">I am currently working on my certification to be a full stack developer throug The university of California Berkeley extension Coding Bootcamp. I am also learning other web development skills through CodeCademy. If you wish to know more about the Bootcamp, click on this card to check out the details.</p>
+                        <div class="card-body">
+                            <h2 class="card-title">Training:</h2>
+                            <p class="card-text lh-md">I am currently working on my certification to be a full stack developer throug The university of California Berkeley extension Coding Bootcamp. I am also learning other web development skills through CodeCademy. If you wish to know more about the Bootcamp, click on this card to check out the details.</p>
+                            <a href="https://bootcamp.berkeley.edu/coding/" class="stretched-link lh-md text-decoration-none link-dark"></a>
+                        </div>
+                        <img src="./assets/images/berkeley.png" class="card-img-bottom" alt="UC berkeley coding bootcamp image">
                     </article>
+
                     <article class="card col m-2 text-center">
-                        <a class="lh-md text-decoration-none link-dark stretched-link" href="./assets/Documents/PBResume2021.pdf">
+                        <div class="card-body">
                         <h2 class="card-title">Resume:</h2>
                         <p class="card-text lh-sm">Here is a PDF link to my resume, it has been updated to reflect 2021 work experience and training.</p>
+                        </div>
+                        <img src="./assets/images/resumeScreenshot.png" class="card-img-bottom" alt="screenshot of my resume">
+                        <a class="lh-md text-decoration-none link-dark stretched-link" href="./assets/Documents/PBResume2021.pdf">
                         </a>
                     </article>
                 </div>
@@ -76,13 +91,13 @@
 
                         <section class="card col m-2" id="JamMap">
                             <a class="card-link" href="https://pdpco.github.io/jam-map/">
-                            <h3 class="card-title text-center h3">Jam-Map</h3>
+                            <h3 class="card-title text-center h3 text-decoration-none">Jam-Map</h3>
                             <img class="img-fluid" src="./assets/images/jam-map.png" alt="screenshot of Jam Map the application"/>
                             </a>
                             <div class="card-body">
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Github Repository</li>
-                                    <li class="list-group-item">Deployed Site</li>
+                                    <li class="list-group-item"><a href="https://github.com/PDPco/jam-map">Github Repository</a></li>
+                                    <li class="list-group-item"><a href="https://pdpco.github.io/jam-map/">Deployed Site</a></li>
                                   </ul>
                             </div>
 
@@ -90,13 +105,13 @@
 
                         <section class="card col m-2" id="weatherDashboard">
                             <a class="card-link" href="https://pn-barnes.github.io/weather-dashboard/">
-                            <h3 class="card-title text-center h3">Weather Dashboard</h3>
+                            <h3 class="card-title text-center h3 text-decoration-none">Weather Dashboard</h3>
                             <img class="img-fluid"src="assets/images/weatherDashboard.png" alt="screenshot for the weatherdashboard by city">
                             </a>
                             <div class="card-body">
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Github Repository</li>
-                                    <li class="list-group-item">Deployed Site</li>
+                                    <li class="list-group-item"><a href="https://github.com/PN-Barnes/weather-dashboard">Github Repository</a></li>
+                                    <li class="list-group-item"><a href="https://pn-barnes.github.io/weather-dashboard/">Deployed Site</a></li>
                                   </ul>
                             </div>
                         </section>
@@ -106,27 +121,28 @@
                     <div class="row">
                         <section class="card col m-2" id="workDay">
                             <a class="card-link" href="https://pn-barnes.github.io/WorkDay-Scheduler/">
-                            <h3 class="card-title text-center h3">Workday Scheduler</h3>
+                            <h3 class="card-title text-center h3 text-decoration-none">Workday Scheduler</h3>
                             <img class="img-fluid"src="assets/images/workdayScheduler.png" alt="screenshot of the workday Scheduler">
                             </a>
                             <div class="card-body">
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Github Repository</li>
-                                    <li class="list-group-item">Deployed Site</li>
-                                  </ul>
+                                    <li class="list-group-item"><a href="https://github.com/PN-Barnes/WorkDay-Scheduler">Github Repository</a></li>
+                                    <li class="list-group-item"><a href="https://pn-barnes.github.io/WorkDay-Scheduler/">Deployed Site</a></li>
+                                </ul>
                             </div>
                         </section>
 
                         <section class="card col m-2" id="passwordGenerator">
                             <a class="card-link" href="https://pn-barnes.github.io/random-password-generator/">
-                            <h3 class="card-title text-center h3">Password Generator</h3>
+                            <h3 class="card-title text-center h3 text-decoration-none">Password Generator</h3>
                             <img class="img-fluid"src="assets/images/passwordGenerator.png" alt="screenshot of the password Generator">
                             </a>
                             <div class="card-body">
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">Github Repository</li>
-                                    <li class="list-group-item">Deployed Site</li>
-                                  </ul>
+                                    <li class="list-group-item"><a href="https://github.com/PN-Barnes/random-password-generator">Github Repository</a></li>
+                                    <li class="list-group-item"><a href="https://pn-barnes.github.io/random-password-generator/">Deployed Site</a></li>
+                                    
+                                </ul>
                             </div>
                         </section>
                     </div>
