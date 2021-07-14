@@ -12,10 +12,12 @@ This website was created using HTML and CSS, without the use of any Javascript f
 
 
 
-![HTML snapshot](./assets/images/PBportfolioIndex.png)
+![HTML snapshot](./assets/images/PBIndex.png)
 
 
-![CSS snapshot](./assets/images/PBportfolioCSS.png)
+![CSS snapshot](./assets/images/PBcss.png)
+
+After the second iteration, the implementation of the CSS framework bulma was linked to the index file to create a more seamless and cleaner look compared to the first iteration of just custom CSS. Bulma only provided the structure for th elements, all the content and styling was done through custome css and html inserts. 
 
 # Install
 
@@ -33,6 +35,10 @@ Any form of text editor will suffice to run the code. There is no Javascript fun
 # Feedback
 
 If you would like to leave any feedback, reach out to me through any of the contact links listed within the page. My contact information will be listed under the "Contact" tab. 
+
+[LinkedIn](https://www.linkedin.com/feed/)
+
+[GitHub](https://github.com/PN-Barnes)
 
 # Usage
 
