@@ -22,7 +22,7 @@
 
         <!-- PORTRAIT AND NAME -->
 
-            <div class="card container-fluid portrait justify-content-center mt-6" id="portrait-container">
+            <div class="card container-lg portrait justify-content-center mt-6" id="portrait-container">
                 <img src="./assets/images/tierra-Alta-bw.png" class="card-img" id="tierraAlta" alt="">
                 <div class="card-img-overlay">
                     
@@ -35,9 +35,9 @@
             </div>
 
         <!-- BIO BACKGROUND AND SKILLS -->
-            <main class="container-fluid mt-5 mb-5" id="bio">
-                <div class="row g-2">
-                    <article class=" card col g-2 text-center m-2 background">
+            <main class="container mb-5 mt-5" id="bio">
+                <div class="row row-cols-1 row-cols-md-2 gx-4 gy-4">
+                    <article class=" card col text-center background">
                         <div class="card-body">
                         <h2 class="card-title">Background:</h2>
                         <p class="card-text lh-sm">My name is Paul Barnes. I am a 22 year old FullStack Developer from Sacramento, California.
@@ -48,7 +48,7 @@
                         <img src="./assets/images/Sacramento_Tower_Bridge_1920x1080.jpg" class="card-img-bottom" alt="Sacramento tower bridge">
                     </article>
 
-                    <article class=" card col m-2 text-center skills" id="skills">
+                    <article class=" card col text-center skills" id="skills">
                         <div class="card-body">
                         <h2 class="card-title">Skills:</h2>
                         <p class="card-text lh-sm">I have been learning FullStack development from the beginning of 2021 with CodeCademy and recently going through the University of California Berkeley extension Coding Bootcamp. I also graduated from Louisiana State University in 2021 with a BA in Film and Television Production.
@@ -57,10 +57,8 @@
                         <img src="./assets/images/logo-codecademy-social.png" class="card-img-bottom" alt="CodeCademy image"> 
                         <a href="https://www.codecademy.com/" class="stretched-link lh-md text-decoration-none link-dark"></a>
                     </article>
-                </div>
-
-                <div class="row g-2">
-                    <article class="card col m-2 text-center resume">
+                
+                    <article class="card col text-center resume">
                         <div class="card-body">
                             <h2 class="card-title">Training:</h2>
                             <p class="card-text lh-md">I am currently working on my certification to be a full stack developer throug The university of California Berkeley extension Coding Bootcamp. I am also learning other web development skills through CodeCademy. If you wish to know more about the Bootcamp, click on this card to check out the details.</p>
@@ -69,7 +67,7 @@
                         <img src="./assets/images/berkeley.png" class="card-img-bottom" alt="UC berkeley coding bootcamp image">
                     </article>
 
-                    <article class="card col m-2 text-center">
+                    <article class="card text-center col ">
                         <div class="card-body">
                         <h2 class="card-title">Resume:</h2>
                         <p class="card-text lh-sm">Here is a PDF link to my resume, it has been updated to reflect 2021 work experience and training.</p>
@@ -83,17 +81,16 @@
             </main>
 
         <!-- PROJECTS -->
-            <div class="row justify-content-center mb-4">
+            <div class="row row-cols-1 row-cols-md-2 justify-content-center mb-4">
                 <h2 class="h2 col text-center"id="headingProjects">Projects</h2>
             </div>
 
             <aside class="projectsContainer container-fluid mt-5 mb-5">
 
-                <div id="projects" class="container-fluid">
-                    <!-- FIRST ROW -->
-                    <div class="row g-5">
+                <div id="projects" class="container">
+                    <div class="row row-cols-1 row-cols-md-2 g-5">
 
-                        <section class="card col m-2" id="JamMap">
+                        <section class="card col" id="JamMap">
                             <a class="card-link" href="https://pdpco.github.io/jam-map/">
                             <h3 class="card-title text-center h3 text-decoration-none">Jam-Map</h3>
                             <img class="img-fluid" src="./assets/images/jam-map.png" alt="screenshot of Jam Map the application"/>
@@ -107,7 +104,7 @@
 
                         </section>
 
-                        <section class="card col m-2" id="weatherDashboard">
+                        <section class="card col" id="weatherDashboard">
                             <a class="card-link" href="https://pn-barnes.github.io/weather-dashboard/">
                             <h3 class="card-title text-center h3 text-decoration-none">Weather Dashboard</h3>
                             <img class="img-fluid"src="assets/images/weatherDashboard.png" alt="screenshot for the weatherdashboard by city">
@@ -119,11 +116,8 @@
                                   </ul>
                             </div>
                         </section>
-                    </div> 
 
-                    <!-- SECOND ROW -->
-                    <div class="row">
-                        <section class="card col m-2" id="workDay">
+                        <section class="card col" id="workDay">
                             <a class="card-link" href="https://pn-barnes.github.io/WorkDay-Scheduler/">
                             <h3 class="card-title text-center h3 text-decoration-none">Workday Scheduler</h3>
                             <img class="img-fluid"src="assets/images/workdayScheduler.png" alt="screenshot of the workday Scheduler">
@@ -136,7 +130,7 @@
                             </div>
                         </section>
 
-                        <section class="card col m-2" id="passwordGenerator">
+                        <section class="card col" id="passwordGenerator">
                             <a class="card-link" href="https://pn-barnes.github.io/random-password-generator/">
                             <h3 class="card-title text-center h3 text-decoration-none">Password Generator</h3>
                             <img class="img-fluid"src="assets/images/passwordGenerator.png" alt="screenshot of the password Generator">
