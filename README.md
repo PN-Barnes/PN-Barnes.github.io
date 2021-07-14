@@ -4,7 +4,7 @@
 
 Hello! Welcome to my Professional Portfolio Website. My name is Paul Barnes, I am a Fullstack Developer out of Sacramento California. This page is meant to show my background and skills as full stack developer. There are links and attachments for extra information on my work history as well as my educational background. Thank you for visiting my page and if you wish to contact me, click the 'Contact' link on the page. 
 
-![Snapshot of deployed Page](assets\images\deployedSite.png)
+![Snapshot of deployed Page](./assets/images/deployedApplication.png)
 
 # Description
 
