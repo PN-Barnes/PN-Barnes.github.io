@@ -1,35 +1,43 @@
 :root {
-   --fontColor: #ffd300; 
-   --headings: 
+  --fontColor: #ffd300;
+  --headings: ;
 }
 
-body, footer {
-    background-color: black;
-    color: gold;
+body,
+footer {
+  background-color: black;
+  color: gold;
 }
-header, .card, nav {
-    background-color: #212529;
+header,
+.card,
+nav {
+  background-color: #212529;
 }
 .headshot {
-    border-radius: 50%;
+  border-radius: 50%;
+}
+#portrait-container {
+  background-color: black;
 }
 #portrait-container p {
-    color: gold;
-    font-size: 3rem;
-    
+  color: gold;
+  font-size: 3rem;
 }
-a, li, .nav-link {
-    color: gold;
+a,
+li,
+.nav-link {
+  color: gold;
 }
-p{
-    color: whitesmoke;
-    font-size: 1.5rem;
+p {
+  color: whitesmoke;
+  font-size: 1.5rem;
 }
-ul, #contact {
-    background-color: #212529;
-    font-size: 1.5rem;
+ul,
+#contact {
+  background-color: #212529;
+  font-size: 1.5rem;
 }
 
 #headingProjects {
-    font-size: 3rem;
+  font-size: 3rem;
 }
